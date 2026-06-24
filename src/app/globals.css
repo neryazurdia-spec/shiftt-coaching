@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Typography */
+  --font-display: 'DM Sans', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Colors */
+  --color-black: #0A0A0A;
+  --color-white: #FFFFFF;
+  --color-surface: #F8F8F8;
+  --color-mid: #6B7280;
+  --color-dim: #E5E7EB;
+  --color-accent: #1B4ED8;
+}
+
+@layer base {
+  html {
+    color: var(--color-black);
+    background-color: var(--color-white);
+  }
+
+  body {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--color-black);
+    background-color: var(--color-white);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    line-height: 1.1;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
