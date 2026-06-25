@@ -17,8 +17,25 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "SHIFTT Coaching",
-  description: "SHIFTT Coaching — Transform your performance",
+  title: "SHIFTT Coaching | Coaching de carrera y marca personal en Guatemala",
+  description:
+    "Coaching de carrera y posicionamiento de marca personal con metodología INCAE Business School. CV formato ATS, LinkedIn SSI y plan de acción de 3 meses.",
+  keywords: [
+    "coaching carrera Guatemala",
+    "LinkedIn Guatemala",
+    "CV ATS Guatemala",
+    "empleabilidad Guatemala",
+    "INCAE coaching",
+  ],
+  openGraph: {
+    title: "SHIFTT Coaching | Coaching de carrera y marca personal en Guatemala",
+    description:
+      "Coaching de carrera y posicionamiento de marca personal con metodología INCAE Business School. CV formato ATS, LinkedIn SSI y plan de acción de 3 meses.",
+    type: "website",
+  },
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
