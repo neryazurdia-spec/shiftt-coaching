@@ -35,12 +35,6 @@ const services: Service[] = [
     description: '¿Cuánto debo pedir o aceptar de salario?',
   },
   {
-    price: 'Consultar', priceNote: '',
-    title: 'Guía de posicionamiento con IA',
-    description: 'Estrategia personalizada de marca digital',
-    highlight: true,
-  },
-  {
     price: 'Q50', priceNote: '',
     title: 'Header de LinkedIn personalizado',
     description: 'Diseñado según tus objetivos de carrera',
@@ -48,8 +42,7 @@ const services: Service[] = [
   {
     price: 'Q125', priceNote: '',
     title: 'Asesoría Claude IA & Capabilities',
-    description: 'Cómo hacer que la IA trabaje para ti y ahorrar horas con un solo prompt',
-    fullWidth: true,
+    description: 'Cómo aprender a usar Claude AI, conocer habilidades productivas y su uso aplicado en el ámbito profesional.',
   },
 ];
 
@@ -70,7 +63,7 @@ export function Complementarios() {
           Servicios complementarios
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
           {services.map((service, index) => (
             <motion.div
               key={`${service.title}-${index}`}
