@@ -5,6 +5,7 @@ import { PainPoints } from '@/components/sections/PainPoints';
 import { PlanShiftt } from '@/components/sections/PlanShiftt';
 import { Complementarios } from '@/components/sections/Complementarios';
 import { Beneficios } from '@/components/sections/Beneficios';
+import { FAQ } from '@/components/sections/FAQ';
 import { CTAFinal } from '@/components/sections/CTAFinal';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <PlanShiftt />
         <Complementarios />
         <Beneficios />
+        <FAQ />
         <CTAFinal />
       </main>
       <Footer />
